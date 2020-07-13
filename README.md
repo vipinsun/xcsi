@@ -11,12 +11,12 @@ JSON files that define the message are in src/json
 Documentation in doc
 
 ## License
-License file is found in this directory. We follow Apache 2.0 for for code and CC by 4.0 for all other contributions.
+License file is found in this directory. Apache 2.0 operates for code and CC by 4.0 for all other contributions.
 
 
 ## Maintainers 
 
-Vipin Bharathan vipinsun@gmail.com
+Vipin Bharathan vipinsun@gmail.com 
 Mani Pillai mani@swapshub.com
 Jagdeesh Babu jaga@swapshub.com
 

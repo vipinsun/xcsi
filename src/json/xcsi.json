@@ -1,26 +1,28 @@
 {
-        "Header": {
+    "Header": {
             "_comment": "Header describes message: Digital Signature is of the message hash, signed by the attesting authority",
             "timeStamp": "Secure time stamp ANSI ASC X9.95 Standard",
             "messageType": "XCSI",
             "messageID": "generated UUID",
             "messageSign":"DigitalSignature from Origin"
-        },
-         "fromChain": {
+    },
+    
+    "fromChain": {
             "name": "name of chain in CNS or Chain Name Service (URL)vs URI vs IP Address, use LEI, IPV6, IPFS ()",
             "transactionID": "TransactionID-identity", 
             "_comment":"overrides or supplements the original, settlement may be a composite", 
             "referenceContract": {
                 "contractType": "DLPC|CDM|Other",
                 "contractID": "uniquecontractid- can be DLPCID|CDMID|"
-           }            
-        },
+        }            
+    },
     
     "payment": {
         "amount": "numeric payment amount",
         "currency": "ISO Code|Stablecoin ref|CBDC ref|crypto-currency ISO4217-fiat Informal add-ons, Lukka has reference dataset for crypto currency",
         "paymentDate": "yyyymmdd (ISO 8601)"
     },
+    
     "payer": {
         "payerId": {
             "type": "nameaddress|LEI|DUNS",
@@ -33,11 +35,13 @@
          
         }
     },
+    
     "payee": {
         "payeeId": {
             "type": "nameaddress|LEI|DUNS",
             "id": "string representing payeeID"
         },
+    
         "to": {
             "_comment" : "payee bank details are discoverable thru account",
             "type": "ACH| traditional payment|Stablecoin|CDBDCName- has to be same as payment currency",

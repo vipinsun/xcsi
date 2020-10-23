@@ -22,7 +22,6 @@
         "currency": "ISO Code|Stablecoin ref|CBDC ref|crypto-currency ISO4217-fiat Informal add-ons, Lukka has reference dataset for crypto currency",
         "paymentDate": "yyyymmdd (ISO 8601)"
     },
-    
     "payer": {
         "payerId": {
             "type": "nameaddress|LEI|DUNS",
@@ -35,13 +34,11 @@
          
         }
     },
-    
     "payee": {
         "payeeId": {
             "type": "nameaddress|LEI|DUNS",
             "id": "string representing payeeID"
         },
-    
         "to": {
             "_comment" : "payee bank details are discoverable thru account",
             "type": "ACH| traditional payment|Stablecoin|CDBDCName- has to be same as payment currency",
@@ -50,5 +47,3 @@
     
     }
 }
-
-
